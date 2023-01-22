@@ -1,0 +1,11 @@
+###GET data
+GET https://639b3492d5141501974eaf28.mockapi.io/products
+
+###
+GET https://fakestoreapi.com/products
+###
+GET https://639b3492d5141501974eaf28.mockapi.io/nykaa
+
+###
+DELETE  https://639b3492d5141501974eaf28.mockapi.io/nykaa/24
+Content-Type: application/json

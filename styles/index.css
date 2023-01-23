@@ -1,4 +1,3 @@
-
 .navbar-1-2{
     position: sticky;
     top: 0;
@@ -36,7 +35,7 @@
 #right button{
     margin: 0 20px;
     border: none;
-    background-color: transparent;;
+    background-color: transparent;
     font-size: 15px;
 }
 #right button:hover{
@@ -92,7 +91,7 @@
     height: 5vh;
     background-color: rgb(220, 219, 219);
     border-radius: 10px;
-    margin-right: 20px;
+    margin-right: 60px;
 }
 #search input{
     border: none;
@@ -434,6 +433,16 @@
 }
 
 @media screen and (min-width:201px) and (max-width:600px){
+    .navbar-3{
+        height: 10vh;
+    }
+    .navbar-3 > div{
+        width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+        gap: 10px;
+    }
     .container-2{
         display: grid;
         grid-template-columns: repeat(2,1fr);
@@ -463,7 +472,14 @@
         grid-template-columns: repeat(1,1fr);
         gap: 16px;
     }
-    
+    .Footer-1{
+        height: 28vh;
+        font-size: 14px;
+    }
+    .Footer-1-1{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
     .Footer-3-1{
         display: grid;
         grid-template-columns: repeat(3,1fr);

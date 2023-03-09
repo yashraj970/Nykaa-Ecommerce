@@ -432,7 +432,40 @@
     grid-template-columns: repeat(4,1fr);
 }
 
-@media screen and (min-width:201px) and (max-width:600px){
+@media screen and (min-width:101px) and (max-width:700px){
+    #left{
+        display: none;
+    }
+    
+    #right{
+        padding-right: 10px;
+    }
+    #right button{
+        margin: 0 20px;
+        font-size: 12px;
+    }
+    
+    #left1{
+        width: 30%;
+        margin-left: 10px;
+    }
+    #right1{
+        width: 50%;
+    }
+    #search{
+        display: none;
+    }
+    #Signin-btn{
+        width: 115%;
+    }
+    #bag{
+        width: 20px;
+    }
+
+    .none{
+        display: none;
+    }
+
     .navbar-3{
         height: 10vh;
     }
@@ -440,8 +473,8 @@
         width: 100%;
         margin: auto;
         display: grid;
-        grid-template-columns: repeat(6,1fr);
-        gap: 10px;
+        grid-template-columns: repeat(5,1fr);
+        gap: 5px;
     }
     .container-2{
         display: grid;
@@ -482,7 +515,14 @@
     }
     .Footer-3-1{
         display: grid;
+        width: 95%;
         grid-template-columns: repeat(3,1fr);
+    }
+    .Footer-3-1 h5{
+        font-size: 12px;
+    }
+    .Footer-3-1 p{
+        font-size: 9px;
     }
     
 }
